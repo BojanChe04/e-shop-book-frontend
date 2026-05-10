@@ -1,9 +1,9 @@
 import { useParams, useNavigate } from 'react-router';
 import { Box, Button, Divider, Paper, Typography } from '@mui/material';
 import { ArrowBack as ArrowBackIcon } from '@mui/icons-material';
-import useCountry from '../hooks/useCountry';
-import LoadingSpinner from '../components/LoadingSpinner';
-import ErrorMessage from '../components/ErrorMessage';
+import useCountry from '../../hooks/useCountry.ts';
+import LoadingSpinner from '../components/LoadingSpinner.tsx';
+import ErrorMessage from '../components/ErrorMessage.tsx';
 
 const CountryDetail = () => {
     const { id } = useParams();

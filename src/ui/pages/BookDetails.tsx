@@ -1,9 +1,9 @@
 import { useParams, useNavigate } from 'react-router';
 import { Box, Button, Chip, Divider, Paper, Typography } from '@mui/material';
 import { ArrowBack as ArrowBackIcon } from '@mui/icons-material';
-import useBook from '../hooks/useBook';
-import LoadingSpinner from '../components/LoadingSpinner';
-import ErrorMessage from '../components/ErrorMessage';
+import useBook from '../../hooks/useBook.ts';
+import LoadingSpinner from '../components/LoadingSpinner.tsx';
+import ErrorMessage from '../components/ErrorMessage.tsx';
 
 const BookDetails = () => {
     const { id } = useParams();

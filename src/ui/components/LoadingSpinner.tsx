@@ -4,7 +4,7 @@ interface Props {
     message?: string;
 }
 
-const LoadingSpinner = ({ message = 'Се вчитува...' }: Props) => {
+const LoadingSpinner = ({ message = 'Loading...' }: Props) => {
     return (
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', py: 8, gap: 2 }}>
             <CircularProgress />
